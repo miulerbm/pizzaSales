@@ -1,5 +1,8 @@
 # pizzaSales - Dashboard de Análisis de Ventas de Pizzas
 
+[![Home Page Dashboard](/images/image_proj_pizzaSales.jpg)](#)
+
+
 ## Descripción del Proyecto
 Construiremos un panel de control para mostrar tendencias, métricas y resúmenes de ventas de un negocio de pizzas.
 
