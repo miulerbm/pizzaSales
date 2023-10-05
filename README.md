@@ -13,11 +13,8 @@ Construiremos un panel de control para mostrar tendencias, métricas y resúmene
   - Dos opciones: Inicio y Mejores / Peores vendedores: Las pizzas más vendidas y las menos vendidas.
   - También se incluyen algunas ideas clave en ambas páginas.
 
-## Herramientas Utilizadas
-- MS SQL Server para consultas.
-
 ## Declaración del Problema (del cliente)
-Desde MS SQL crearemos un informe que incluirá:
+Se realizará un informe que incluirá:
 ### Parte 1: KPIs
 - Ingresos Totales.
 - Valor Promedio de Pedido.
@@ -26,9 +23,9 @@ Desde MS SQL crearemos un informe que incluirá:
 ### Parte 2: Power BI
 - Conexión a MS SQL Server (Origen de Datos: MS SQL Server).
 - Limpieza de Datos utilizando Power Query.
-- Procesamiento y normalización de datos mediante DAX y la creación de columnas condicionales con respecto a la declaración del problema.
+- Procesamiento y normalización de datos mediante DAX y la creación de columnas condicionales con respecto a lo que nos plantea el problema.
 - Visualización de Datos: Gráficos y funcionalidades especiales.
-- Informes/Paneles Dinámicos: 2 paneles.
+- Informes/Dashboards Dinámicos: 2 dashboards.
 
 ### Declaración del Problema: 2 secciones
 1. Requisitos de KPI: Analizar los indicadores clave de nuestros datos de ventas de pizzas y obtener información sobre el rendimiento de nuestro negocio.
@@ -37,7 +34,7 @@ Desde MS SQL crearemos un informe que incluirá:
    - Cantidad Total de Pizzas Vendidas: Suma de las cantidades de todas las pizzas vendidas.
    - Total de Pedidos: El número total de pedidos realizados.
    - Pizzas Promedio por Pedido: Número promedio de pizzas vendidas por pedido, calculado dividiendo el número total de pizzas vendidas por el número total de pedidos.
-2. Requisitos de Gráficos: Visualizar aspectos de nuestros datos y obtener información sobre tendencias clave. Hemos identificado:
+2. Requisitos Adicionales: Visualizar aspectos de nuestros datos y obtener información sobre tendencias clave. Hemos identificado:
    - Tendencia Diaria de Pedidos Totales: Gráfico de barras que muestra la tendencia diaria de pedidos totales durante un período de tiempo específico. Este gráfico nos ayuda a identificar patrones o fluctuaciones en el volumen de pedidos diarios.
    - Tendencia Mensual de Pedidos Totales: Crear un gráfico de líneas que ilustre la tendencia horaria de pedidos totales a lo largo del día. Este gráfico nos permitirá identificar las horas pico o períodos de alta actividad de pedidos.
    - Porcentaje de Ventas por Categoría de Pizza: Crear un gráfico circular que muestra la distribución de las ventas en diferentes categorías de pizza. Este gráfico proporcionará información sobre la popularidad de diversas categorías de pizzas y su contribución a las ventas totales.
@@ -47,10 +44,11 @@ Desde MS SQL crearemos un informe que incluirá:
    - 5 Peores Vendedores por Ingresos, Cantidad Total y Total de Pedidos. Gráfico de barras, las pizzas menos vendidas.
 
 ## Software Utilizado
-- MS Office Excel.
+- MS Excel.
 - MS SQL Server.
 - SQL Server Management Studio.
 - Power BI.
 
-## Resultados
+## Referencias
+Proyecto de Data Tutorials, revisado en: https://www.youtube.com/watch?v=V-s8c6jMRN0
 
